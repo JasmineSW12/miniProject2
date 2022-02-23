@@ -1,0 +1,451 @@
+
+/* Clearfix to make floated elements behave correctly: */
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }
+.clear { clear: both; }
+
+
+
+
+Body {
+ font-family: 'Roboto', sans-serif;
+ padding: 20x;
+}
+
+/*title for index page*/
+.title {
+    margin-left: 18.666%;
+    font-size: 80px;
+}
+ /*for images on each page*/
+.images {
+    margin-left: 34.333%;
+    width: 100%;
+}
+
+.index-text{
+    width: 75%;
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+
+.spring-title {
+font-size: 50px;
+margin-left: 33.333%;
+color: rgb(153, 146, 158);
+
+}
+
+/*spring poem title*/
+.spring-poemt {
+    color: rgb(67, 78, 34);
+    width: 12.677%;
+    margin-left: 46.666%;
+    margin-right: 2%;
+    float: left;
+    margin-top: -160px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/*spring author for h6 color change*/
+.spring-author {
+
+    color: rgb(67, 78, 34);
+    letter-spacing: 1px;
+}
+
+.spring-text {
+    margin-left: 36.333%;
+    color: rgb(137, 152, 92);
+    font-size: 20px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+
+.summer-title {
+    font-size: 50px;
+    margin-left: 18.667%;
+    color: rgb(204, 144, 172);
+}
+
+.summer-poemt {
+    color: rgb(249, 170, 141);
+    width: 12.667%;
+    margin-left: 42%;
+    margin-right: 2%;
+    float: left;
+    margin-top: -160px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.summer-author {
+    color: rgb(249, 170, 141);
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-left: 53.111%;
+}
+
+.summer-text {
+    color: rgb(248, 154, 28);
+    margin-left: 14.222%;
+    font-size: 20px;
+    margin-top: 30px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+
+.fall-title {
+    font-size: 50px;
+    margin-left: 34.333%;
+    color: rgb(148, 159, 170);
+}
+
+.fall-poemt {
+    color: rgb(52, 62, 54);
+    width: 12.677%;
+    margin-left: 36.666%;
+    margin-right: 2%;
+    float: left;
+    margin-top: -160px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.8;
+
+}
+
+.fall-author {
+    color: rgb(52, 62, 54);
+    letter-spacing: 1px;
+    margin-left: 58.333%;
+}
+
+.fall-text {
+    color: rgb(101, 111, 118);
+    margin-left: 23.667%;
+    font-size: 20px;
+    margin-top: 30px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+
+.winter-title {
+    font-size: 50px;
+    margin-left: 33.333%;
+    color: rgb(64, 67, 76);
+    
+    }
+    
+    /*winter poem title*/
+    .winter-poemt {
+        color: rgb(36, 51, 70);
+        width: 12.677%;
+        margin-left: 39.333%;
+        margin-right: 2%;
+        float: left;
+        margin-top: -160px;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+    
+    /*winter author for h6 color change*/
+    .winter-author {
+    
+        color: rgb(36, 51, 70);
+        letter-spacing: 1px;
+        margin-left: 59.666%;
+    }
+    
+    .winter-text {
+        margin-left: 25.666%;
+        color: rgb(127, 142, 159);
+        font-size: 20px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+    }
+
+h1 {
+    font-size: 50x;
+    font-weight: 900;
+    margin-bottom: 80px;
+    margin-top: 55px;
+}
+
+h6 {
+    margin-left: 65.222%;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+    width: 12.667%;
+
+}
+
+p {
+    margin-left: 45.666%;
+    margin-top: 90px;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+a {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+a:link {
+    text-decoration: none;
+    margin-left: 78.333%;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+a:hover {
+    color: rgb(102, 65, 102);
+}
+
+
+/*for mobile screen*/
+
+@media (max-width: 600px) {
+
+    /*title for index page*/
+    .title {
+        margin-left: 24.666%;
+        font-size: 20px;
+        margin-bottom: -100px;
+    }
+
+     /*for images on each page*/
+    .images {
+        margin-left: 0%;
+        max-width: 100%;
+        height: auto;
+        transform: scale(0.5);
+        margin-top: -55px;
+    }
+    
+    .index-text{
+        width: 50%;
+        font-size: 1em;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        margin-left: 26.222%;
+        margin-top: -150px;
+    }
+    
+    .spring-title {
+    font-size: 20px;
+    margin-left: 24.333%;
+    color: rgb(153, 146, 158);
+    
+    }
+    
+    /*spring poem title*/
+    .spring-poemt {
+        color: rgb(67, 78, 34);
+        width: 18.677%;
+        margin-left: 1.333%;
+        margin-right: 2%;
+        float: none;
+        margin-top: -40px;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+    
+    /*spring author for h6 color change*/
+    .spring-author {
+    
+        color: rgb(67, 78, 34);
+        letter-spacing: 1px;
+        line-height: 1.5;
+        font-size: 15px;
+        margin-left: 25.666%;
+        margin-top: -40px;
+
+    }
+    
+    .spring-text {
+        width: 12.677%;
+        color: rgb(137, 152, 92);
+        font-size: 15px;
+        margin-top: 15px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        width: auto;
+        margin-left: 25.666%;
+        margin-top: -30px;
+    }
+    
+    .summer-title {
+        font-size: 20px;
+        margin-left: 24.333%;
+        color: rgb(204, 144, 172);
+    }
+    
+    .summer-poemt {
+        color: rgb(249, 170, 141);
+        width: 18.677%;
+        margin-left: 1.333%;
+        margin-right: 2%;
+        float: none;
+        margin-top: -40px;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    
+    }
+    
+    .summer-author {
+        color: rgb(249, 170, 141);
+        letter-spacing: 1px;
+        line-height: 1.5;
+        font-size: 15px;
+        margin-left: 25.666%;
+        margin-top: -40px;
+    }
+    
+    .summer-text {
+        color: rgb(248, 154, 28);
+        font-size: 11px;
+        margin-top: 15px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        width: auto;
+        margin-left: 25.666%;
+        margin-top: -30px;
+        
+    }
+    
+    .fall-title {
+        font-size: 20px;
+        margin-left: 24.333%;
+        color: rgb(148, 159, 170);
+    }
+    
+    .fall-poemt {
+        color: rgb(52, 62, 54);
+        width: 18.677%;
+        margin-left: 1.333%;
+        margin-right: 2%;
+        float: none;
+        margin-top: -40px;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        
+    
+    }
+    
+    .fall-author {
+        color: rgb(52, 62, 54);
+        letter-spacing: 1px;
+        line-height: 1.5;
+        font-size: 15px;
+        margin-left: 25.666%;
+        margin-top: -40px;
+    }
+    
+    .fall-text {
+        color: rgb(101, 111, 118);
+        font-size: 15px;
+        margin-top: 15px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        width: auto;
+        margin-left: 25.666%;
+        margin-top: -30px;
+    }
+    
+    .winter-title {
+        font-size: 20px;
+        margin-left: 24.333%;
+        color: rgb(64, 67, 76);
+        
+        }
+        
+        /*winter poem title*/
+        .winter-poemt {
+            color: rgb(36, 51, 70);
+            width: 18.677%;
+            margin-left: 1.333%;
+            margin-right: 2%;
+            float: none;
+            margin-top: -40px;
+            font-size: 15px;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+        
+        /*winter author for h6 color change*/
+        .winter-author {
+        
+            color: rgb(36, 51, 70);
+            letter-spacing: 1px;
+            line-height: 1.5;
+            font-size: 15px;
+            margin-left: 25.666%;
+            margin-top: -40px;
+        }
+        
+        .winter-text {
+            font-size: 10px;
+            font-size: 11px;
+            margin-top: 15px;
+            letter-spacing: 1px;
+            line-height: 1.8;
+            width: auto;
+            margin-left: 25.666%;
+            margin-top: -30px;
+        }
+            
+    
+    h1 {
+        font-size: 50x;
+        font-weight: 900;
+        margin-bottom: 80px;
+        margin-top: 55px;
+    }
+    
+    h6 {
+        margin-left: 65.222%;
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 30px;
+        width: 12.667%;
+    
+    }
+    
+    p {
+        margin-left: 0px;
+        margin-top: 90px;
+        font-weight: 300;
+        margin-bottom: 80px;
+    }
+    a {
+        color: black;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    a:link {
+        text-decoration: none;
+        margin-left: 78.333%;
+        font-weight: 900;
+        font-size: 1em;
+    }
+
+
+
+
+}
+
